@@ -600,7 +600,7 @@
     <p class="dateline">Merrimack College, September 2026</p>
     <h1 class="voice">Before we begin, a few questions about you and AI<span class="reddot">.</span></h1>
     <p class="salutation">Hello,</p>
-    <p class="intro">I'm Alanna Colton. This fall I'll be designing Merrimack's Financial Aid Workbench - and, just as happily, spending time with a small group, you among them, playing with AI to widen what you can do. The program is called Headwaters because that's where every river begins - a few small streams. What you pick up here isn't meant to stay with you; it's meant to flow to your team, to your peers. It runs for about ten weeks.</p>
+    <p class="intro">I'm Alanna Colton. This fall I'll be working at Merrimack with a small group, you among them, playing with AI to widen what you can do. The program is called Headwaters because that's where every river begins - a few small streams. What you pick up here isn't meant to stay with you; it's meant to flow to your team, to your peers. It runs for ten weeks.</p>
     <p class="intro">These eight questions tell me where each of you is starting from, so the sessions are built around the people in the room rather than an average of them. There are no right answers, and nothing here is a test.</p>
     <p class="intro from">Your answers come to me and stay with me. They are confidential, and they shape the sessions and nothing else. About three minutes.</p>
 
@@ -608,10 +608,11 @@
     <input type="text" name="_gotcha" class="sr" tabindex="-1" autocomplete="off" aria-hidden="true">
 
     <fieldset>
-      <legend><span class="num">1</span>Your name, and your role or office.</legend>
+      <legend><span class="num">1</span>Your name, your role, and your department or unit.</legend>
       <div class="text">
         <input type="text" name="name" autocomplete="name" placeholder="Name" required aria-label="Your name">
-        <input type="text" name="role" autocomplete="organization-title" placeholder="Role or office" aria-label="Your role or office">
+        <input type="text" name="role" autocomplete="organization-title" placeholder="Role" aria-label="Your role">
+        <input type="text" name="department" placeholder="Department or unit" aria-label="Your department or unit">
       </div>
     </fieldset>
 
@@ -650,6 +651,8 @@
         <label class="opt"><input type="checkbox" name="uses" value="Drafting email"><span>Drafting email</span></label>
         <label class="opt"><input type="checkbox" name="uses" value="Working with a spreadsheet or data"><span>Working with a spreadsheet or data</span></label>
         <label class="opt"><input type="checkbox" name="uses" value="Planning or organizing"><span>Planning or organizing</span></label>
+        <label class="opt"><input type="checkbox" name="uses" value="Agentic AI for workflows"><span>Agentic AI for workflows</span></label>
+        <label class="opt"><input type="checkbox" name="uses" value="Agentic AI for tasks"><span>Agentic AI for tasks</span></label>
         <label class="opt"><input type="checkbox" name="uses" value="Personal things outside work"><span>Personal things outside work</span></label>
         <label class="opt"><input type="checkbox" name="uses" value="Other"><span>Other</span></label>
       </div>
@@ -675,7 +678,8 @@
         <label class="opt"><input type="checkbox" name="comfortable" value="Summarizing a policy document"><span>Summarizing a policy document</span></label>
         <label class="opt"><input type="checkbox" name="comfortable" value="Pasting a student's record to get help with their case"><span>Pasting a student's record to get help with their case</span></label>
         <label class="opt"><input type="checkbox" name="comfortable" value="Rewriting a paragraph of your own"><span>Rewriting a paragraph of your own</span></label>
-        <label class="opt"><input type="checkbox" name="comfortable" value="Deciding a student's aid eligibility"><span>Deciding a student's aid eligibility</span></label>
+        <label class="opt"><input type="checkbox" name="comfortable" value="Building an automated workflow"><span>Building an automated workflow</span></label>
+        <label class="opt"><input type="checkbox" name="comfortable" value="Having AI take on a daily task for you"><span>Having AI take on a daily task for you</span></label>
         <label class="opt"><input type="checkbox" name="comfortable" value="Brainstorming how to improve a process"><span>Brainstorming how to improve a process</span></label>
       </div>
     </fieldset>
@@ -691,6 +695,8 @@
         <label class="opt"><input type="checkbox" name="help" value="Bigger, multi-step work"><span>Bigger, multi-step work</span></label>
         <label class="opt"><input type="checkbox" name="help" value="Spreadsheets and data"><span>Spreadsheets and data</span></label>
         <label class="opt"><input type="checkbox" name="help" value="What's safe to share"><span>What's safe to share</span></label>
+        <label class="opt"><input type="checkbox" name="help" value="Building an AI workflow"><span>Building an AI workflow</span></label>
+        <label class="opt"><input type="checkbox" name="help" value="Handing daily tasks to AI, to be more productive"><span>Handing daily tasks to AI, to be more productive</span></label>
         <label class="opt"><input type="checkbox" name="help" value="Judging what it gives me, and making it better"><span>Judging what it gives me, and making it better</span></label>
       </div>
     </fieldset>
